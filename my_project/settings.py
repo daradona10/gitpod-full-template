@@ -29,7 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'b2$eted7y=*90@d3fdf*cy#x2swn_%1+m$+8t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8080-d9e7aef5-cabc-4c5a-b058-8a03b0d0f22a.ws-eu01.gitpod.io']
+ALLOWED_HOSTS = ['8080-d9e7aef5-cabc-4c5a-b058-8a03b0d0f22a.ws-eu01.gitpod.io',
+                 'simple-django10-todo.herokuapp.com']
 
 
 # Application definition
